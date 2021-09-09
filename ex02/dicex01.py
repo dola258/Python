@@ -1,4 +1,4 @@
-# 딕셔너리 (사전)
+# 딕셔너리 (사전) / JSON이랑 생긴게 같다
 # { "key": value } 딕셔너리
 # { key : value } 자바스크립트 오브젝트
 # { "key" : value } JSON
