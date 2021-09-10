@@ -21,8 +21,8 @@ movies = responseDict["data"]["movies"]
 
 for movie in movies:
     
-    print(f"제목: {movie['title']}") # +없이 한줄의 str로 나온다
-    print(f"평점: {str(movie['rating'])}점") # +없이 한줄의 str로 나온다
+    print(f"제목: {movie['title']}") # $"":  +없이 한줄의 str로 나온다
+    print(f"평점: {str(movie['rating'])}점") # $"": +없이 한줄의 str로 나온다
     print("러닝시간: " + str(movie["runtime"]) + "분")
     print("사진: " + movie["medium_cover_image"])
     print("="*50)
